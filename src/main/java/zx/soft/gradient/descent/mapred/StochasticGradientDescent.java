@@ -11,7 +11,8 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * @author Shannon Quinn
+ * 
+ * @author wgybzb
  *
  */
 public class StochasticGradientDescent {
