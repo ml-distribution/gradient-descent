@@ -66,6 +66,7 @@ public class StochasticGradientDescent {
 				e.printStackTrace();
 			}
 		}
+		input.close();
 
 		// Now for each subsequent run, we read the data as follows.
 		Random r = new Random();
@@ -96,6 +97,7 @@ public class StochasticGradientDescent {
 				System.exit(1);
 			}
 
+			System.out.println(document);
 			// We have our random document!
 		}
 	}
